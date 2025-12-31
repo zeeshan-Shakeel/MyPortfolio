@@ -20,7 +20,9 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
-  // Fix for navigation issues
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ ignore ESLint errors during production build
+  },
   async rewrites() {
     return {
       beforeFiles: [],
@@ -33,39 +35,20 @@ const nextConfig = {
       {
         source: '/:path*',
         headers: [
-          {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN',
-          },
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'Referrer-Policy',
-            value: 'origin-when-cross-origin',
-          },
+          { key: 'X-DNS-Prefetch-Control', value: 'on' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'Referrer-Policy', value: 'origin-when-cross-origin' },
         ],
       },
       {
         source: '/fonts/:path*',
         headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, immutable, max-age=31536000',
-          },
+          { key: 'Cache-Control', value: 'public, immutable, max-age=31536000' },
         ],
       },
     ];
   },
 };
-module.exports = {
-  eslint: {
-    ignoreDuringBuilds: true
-  }
-};
-export default nextConfig;
+
+module.exports = nextConfig; // ✅ only one export
