@@ -47,7 +47,8 @@ export function About() {
             {/* LEFT — About Text */}
             <div className="space-y-6 text-lg leading-relaxed">
               <p>
-                Hi! I'm Zeeshan Shakeel, a Full Stack Developer with experience in building scalable, enterprise-grade web applications. I specialize in automation, AI integration, and delivering solutions that reduce costs and improve efficiency. Passionate about creating impactful digital experiences, I focus on designing maintainable, high-performance systems that solve real business problems.              </p>
+                 Hi! I&apos;m Zeeshan Shakeel, a Full Stack Developer with experience in building scalable, enterprise-grade web applications. I specialize in automation, AI integration, and delivering solutions that reduce costs and improve efficiency. Passionate about creating impactful digital experiences, I focus on designing maintainable, high-performance systems that solve real business problems.
+  </p>
 
               <p>
                At Devline Solutions, I design and develop scalable, enterprise-grade web applications that drive business efficiency. I focus on automation and AI-powered solutions to optimize workflows, reduce operational costs by up to 50%, and increase productivity by 200%. I collaborate with cross-functional teams to translate complex requirements into robust, maintainable systems while ensuring high performance and excellent user experience.              </p>
