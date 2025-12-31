@@ -1,4 +1,4 @@
-// Skills data categorized from ujjwalla's resume
+
 
 export interface Skill {
   name: string;

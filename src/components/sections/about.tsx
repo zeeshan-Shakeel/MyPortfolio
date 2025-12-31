@@ -70,7 +70,7 @@ export function About() {
                     
                     <img
                       src="/me/me.png"
-                      alt="Ujjwal Shukla"
+                      alt="Zeeshan Shakeel"
                       className="object-cover w-full h-full"
                     />
                     

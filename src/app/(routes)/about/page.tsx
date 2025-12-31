@@ -4,8 +4,8 @@ import { SkillsShowcase} from "@/components/sections/skills";
 import { Achievements } from "@/components/sections/achievements";
 
 export const metadata: Metadata = {
-  title: "About | Ujjwal shukla",
-  description: "Learn more about Ujjwal shukla  - Bachelor in Computer Science student at AKTU University",
+  title: "About | Zeeshan Shakeel",
+  description: "Learn more about Zeeshan Shakeel  - Bachelor in Computer Science student at Punjab University University",
 };
 
 export default function AboutPage() {

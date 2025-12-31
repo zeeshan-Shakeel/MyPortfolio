@@ -1,11 +1,11 @@
 // App constants
 
 export const SITE_CONFIG = {
-  name: "Ujjwal Shukla",
+  name: "Zeeshan Shakeel",
   description:
-    "B.Tech Computer Science Engineering Student at Lloyd Institute of Engineering & Technology | Full-stack Developer | Community Builder | AI & Web Enthusiast",
-  url: "https://ujjwalshukla.com", 
-  ogImage: "/images/ujjwal/og-image.png",
+    "BS Computer Science Punjab University | Full-stack Developer | Community Builder | AI & Web Engineer",
+  url: "https://zeeshanShakeel.com", 
+  ogImage: "/images/Zeeshan/og-image.png",
   links: {
     email: "zeeshankhan.workmail@gmail.com",
     github: "https://github.com/zeeshan-Shakeel/",
