@@ -100,7 +100,7 @@ export function Navbar() {
               })}
             </div>
 
-            {/* Resume button */}
+           
             <div className="hidden md:flex items-center">
               <a
                 href="/resume/resume.pdf"
