@@ -54,9 +54,9 @@ export function About() {
                At Devline Solutions, I design and develop scalable, enterprise-grade web applications that drive business efficiency. I focus on automation and AI-powered solutions to optimize workflows, reduce operational costs by up to 50%, and increase productivity by 200%. I collaborate with cross-functional teams to translate complex requirements into robust, maintainable systems while ensuring high performance and excellent user experience.              </p>
 
               <p>
-                , a tech community with 1500+ developers and students,
-                I&apos;ve been building a strong coding culture through events, collaborative
-                learning.
+                As the Co-founder of Coders Circle, a tech community with 1500+ developers and students,
+                I&apos;ve been building a strong coding culture through events, mentorship, and collaborative
+                learning, helping students grow individually and as a community.
               </p>
             </div>
 
