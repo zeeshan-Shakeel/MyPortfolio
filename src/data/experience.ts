@@ -16,7 +16,7 @@ export const experienceData: Experience[] = [
     company: "Enopio Solutions",
     role: "Software Engineer",
     duration: "May 2021 – March 2023",
-    location: "Delhi, India",
+    location: "Lahore, Pakistan",
     description:
       "Developed scalable, maintainable web applications to solve core business problems. Focused on high performance, reliability, and building enterprise-grade solutions that support long-term growth.",
     achievements: [
@@ -40,7 +40,7 @@ export const experienceData: Experience[] = [
     company: "Devline Solutions",
     role: "Sr. Full Stack Developer",
     duration: "May 2023 – Present",
-    location: "Delhi, India",
+    location: "Lahore, Pakistan",
     description:
       "Designing and developing enterprise-grade, scalable web applications. Focused on automation and AI-driven solutions to optimize workflows, reduce operational costs, and enhance business efficiency.",
     achievements: [
